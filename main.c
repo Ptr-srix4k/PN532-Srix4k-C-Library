@@ -74,7 +74,7 @@ int main(int argc, char *argv[])
     ///=================================
     //Scrittura blocco 6E
     //block = 0xFFFFFFFF;
-    //PN532_WriteBlock(0x6E, &block);
+    //PN532_WriteBlock(ftHandle,0x6E, &block);
 
     if (!PN532_GetUID(ftHandle,&UID))
     {

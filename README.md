@@ -1,6 +1,15 @@
 # PN532-Srix4k-C-Library
 Libreria in C per leggere le srix4k su Windows usando PN532+FTDI
 
+## Hardware
+I collegamenti vanno effettuati in questo modo
+| FTDI  | PN532 |
+| ----- | ----- |
+| VCC   | VCC   |
+| GND   | GND   |
+| RX    | TXD   |
+| TX    | RXD   |
+
 ## Istruzioni
 - Scaricate i file da questa repository
 - Scaricate MSYS2 (https://www.msys2.org/) e seguite tutte le istruzioni nel sito, oppure scaricate Code::Blocks (www.codeblocks.org) nella versione "*mingw-setup.exe"
